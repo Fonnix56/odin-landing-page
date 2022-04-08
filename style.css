@@ -9,13 +9,17 @@ body {
     justify-content: center;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .header-and-hero {
     background: #1f2937;
-    padding-left: 200px;
-    padding-right: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0px 5000px;
 }
 
 .header {
@@ -69,13 +73,17 @@ body {
     font-weight: bold;
 }
 
+.hero-button:hover {
+    color: #3882f6;
+    background-color: #e5e7eb;
+}
+
 .hero-image {
     padding-left: 50px;
 }
 
 .info {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 0px 5000px;
     display: flex;
     flex-direction: column;
 }
@@ -108,12 +116,12 @@ body {
 .info-image-text {
     width: 150px;
     padding-bottom: 100px;
+    padding-top: 6px;
 }
 
 .quote {
+    padding: 0px 5000px;
     background-color: #e5e7eb;
-    padding-left: 200px;
-    padding-right: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -163,6 +171,9 @@ body {
 }
 
 .action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 8px;
@@ -170,17 +181,23 @@ body {
     font-weight: bold;
     font-size: 16px;
     padding: 0px 50px;
+    flex: 0 1 auto;
+}
+
+.action-button:hover {
+    color: #3882f6;
+    background-color: #f9faf8;
 }
 
 .footer {
-    display: flex;
     background-color: #1f2937;
-    color: #e5e7eb;
-    padding: 25px 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 25px 5000px;
+}
+
+.footer-text {
+    text-align: center;
+    width: 300px;
+    color: #f9faf8;
 }
 
 a, a:visited, a:hover, a:active {
