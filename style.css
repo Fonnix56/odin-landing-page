@@ -123,29 +123,60 @@ body {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    padding-top: 100px;
+    width: 900px;
+}
+
+.quote-accredit {
+    padding-bottom: 100px;
+    padding-left: 600px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .call-to-action {
-    padding-left: 200px;
-    padding-right: 200px;
     display: flex;
     flex-direction: column;
 }
 
 .action-banner {
+    display: flex;
+    flex-direction: row;
     background-color: #3882f6;
+    border-radius: 8px;
+    margin: 100px;
+    padding: 50px 100px;
+}
+
+.action-hero {
+    padding-right: 200px;
+}
+
+.action-header {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-header-text {
+    color: #f9faf8;
 }
 
 .action-button {
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px 50px;
 }
 
 .footer {
+    display: flex;
     background-color: #1f2937;
     color: #e5e7eb;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 25px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
