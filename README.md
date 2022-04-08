@@ -1,2 +1,2 @@
 # odin-landing-page
-All placeholder images courtesy of https://placeholder.com/
+All placeholder images courtesy of https://fakeimg.pl/
